@@ -1,0 +1,14 @@
+--- This file is part of Flymir LuaDist project
+
+name = "luatrace"
+version = "scm"
+
+desc = "A tool for math modelling"
+author = "Geoff Leyland"
+license = "MIT/X11"
+url = "https://github.com/Flymir/luatrace"
+maintainer = "Tai Chi Minh Ralph Eastwood"
+
+depends = {
+	"luajit >= 2.0"
+}
