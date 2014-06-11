@@ -10,5 +10,5 @@ url = "https://github.com/Flymir/luatrace"
 maintainer = "Tai Chi Minh Ralph Eastwood"
 
 depends = {
-	"luajit >= 2.0"
+	"luajit"
 }
