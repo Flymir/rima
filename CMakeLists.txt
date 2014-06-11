@@ -15,7 +15,7 @@ include_directories( ${COIN_INCLUDE_DIRS} )
 install_lua_module ( rima_clp_core c/rima_clp_core.cpp c/rima_solver_tools.cpp LINK ${COIN_LIBRARIES} )
 install_lua_module ( rima lua/rima.lua )
 
-install ( DIRECTORY lua/rima DESTINATION ${INSTALL_LMOD}/rima COMPONENT Runtime )
+install ( DIRECTORY lua/rima DESTINATION ${INSTALL_LMOD} COMPONENT Runtime )
 install_data ( README.md LICENSE AUTHORS )
 
 install_test ( lua/rima-test.lua )
