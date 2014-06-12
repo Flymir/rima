@@ -11,5 +11,7 @@ maintainer = "Tai Chi Minh Ralph Eastwood"
 
 depends = {
 	"luajit",
-	"luatrace"
+	"luatrace",
+	"coin-all",
+	"lpsolve"
 }

@@ -13,6 +13,8 @@ find_package(COIN REQUIRED)
 
 include_directories( ${COIN_INCLUDE_DIRS} )
 install_lua_module ( rima_clp_core c/rima_clp_core.cpp c/rima_solver_tools.cpp LINK ${COIN_LIBRARIES} )
+install_lua_module ( rima_cbc_core c/rima_cbc_core.cpp c/rima_solver_tools.cpp LINK ${COIN_LIBRARIES} )
+install_lua_module ( rima_lpsolve_core c/rima_lpsolve_core.cpp c/rima_solver_tools.cpp LINK ${COIN_LIBRARIES} )
 install_lua_module ( rima lua/rima.lua )
 
 install ( DIRECTORY lua/rima DESTINATION ${INSTALL_LMOD} COMPONENT Runtime )
